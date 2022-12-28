@@ -1,0 +1,112 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: rgb(32, 32, 32);
+    background-color: #202021;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #484849, #202021), repeating-radial-gradient(circle at center center, #484849, #484849, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+}
+main h1{
+    text-align: right;
+    color: white;
+}
+
+main h1 i{
+    font-weight: 100;
+    font-size:xx-large;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    background-color: rgb( 0 150 10);
+    margin: auto 28%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.pantalla{
+    background-color: rgb(158, 235, 248);
+    margin-bottom: 10px;
+    padding: 6px 4px;
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.pantalla p{
+    font-size: 20px;
+}
+.pantalla-resultado{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  
+}
+
+.botones p{
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    background-color: rgb( 0 175 10);
+    border-radius: 15px;
+    font-size: 35px;
+    color: white;
+}
+
+.botones p:hover{
+    background-color: rgb( 100 175 10);
+}
+
+.botonRaiz:hover{
+    background-color: rgb( 100 175 10);
+}
+
+.botonRaiz:focus{
+    padding-bottom: 100px;
+}
+
+footer{
+    color:white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width:700px){
+    .contenedor{
+        margin: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+.publi{
+    width: 300px;
+    height: 500px;
+}
+
+.img{
+    background-color: red;
+    color:white;
+    display: inline-block;
+    position: relative;
+    top:50%;
+}
+
+.img p{
+    font-size: 15px;
+}
+
+.ultraContendor{
+    display: flex;
+    flex-direction: row;
+    
+}
